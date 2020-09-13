@@ -5,6 +5,7 @@ console.log('Esto es otro console log');
 
 const nombre = 'David'; //a una variable const no se le puede cambiar el valor
 let apellido = 'Massana'; // a una let si se le puede cambiar
+const DUI = '0000-0';
 
 console.log(nombre); //imprimis datos en consola
 console.log(typeof apellido); //typeof regresa el tipo de dato contenido en la variable.
