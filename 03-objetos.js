@@ -16,4 +16,4 @@ persona3.nombre = 'Jose';
 
 console.log(persona);
 console.log(persona2);
-console.log(persona3);
+console.log(persona3); 
