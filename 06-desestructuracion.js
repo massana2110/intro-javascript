@@ -1,5 +1,4 @@
 // Desestructuracion
-
 const persona = {
 	nombre: 'David',
 	edad: 22,
