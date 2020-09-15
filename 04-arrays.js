@@ -58,18 +58,22 @@ array.sort(); // Ordena un array, no es que sea tan exacta la ordenacion
 
 console.log(array);
 
-const personas = [{
-	nombre: "Jose",
-}, { 
-	nombre: "David",
-}, { 
-	nombre: "Charly"
-}]
+const personas = [
+	{
+		nombre: 'Jose',
+	},
+	{
+		nombre: 'David',
+	},
+	{
+		nombre: 'Charly',
+	},
+];
 
 console.log(personas);
 
-const personafiltrada = personas.filter(function(persona){
-    return persona.nombre === "Charly";
-})
+const personafiltrada = personas.filter(function (persona) {
+	return persona.nombre === 'Charly';
+});
 
-console.log(personafiltrada);
+console.log(personafiltrada); //trabajo kk de Jose
