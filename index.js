@@ -1,6 +1,42 @@
 // Realice una función que reciba un arreglo como parámetro y liste los tipos de datos de sus elementos y cuantos de cada tipo.
+const array = [
+  "Nombre", //string
+  "Apellido", //string
+  23, //number
+  15.22, //number
+  true, //boolean
+  false, //boolean
+  -2, //number
+  [10], //array
+  {
+    name: "David",
+    last_name: "Zacatares",
+  }, //objet
+  null, //null
+];
+
+function recibir(array) {
+  const array2 = array.map(function (elemento) {
+    return typeof elemento;
+  });
+  return array2;
+}
+
+console.log(recibir(array));
 
 // Realice una función que reciba un arreglo de datos numéricos, y muestre la suma de todos los elementos del arreglo y su promedio.
+const array2 = [1, 2, 3, 4, 5];
+
+function suma_pro(array) {
+  let suma = 0;
+  for (let index = 0; index < array.length; index++) {
+    suma = suma + array[index];
+  }
+  //console.log(suma);
+}
+//suma_pro(array2);
+//console.log(suma);
+console.log(suma_pro(array2));
 
 // Realice una función en JS, que dados un número y un arreglo como parámetros, retorne cuantas ocurrencias existen de ese número dentro del arreglo.
 
